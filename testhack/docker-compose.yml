@@ -1,0 +1,29 @@
+version: "3.8"
+
+# To start:
+# - docker-compose up
+# To finish:
+# - docker-compose down
+
+services:
+  redis:
+    image: 'bitnami/redis:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - "6379:6379"
+
+  db:
+    depends_on:
+      - redis
+    image: postgres:14.4
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - /var/lib/postgresql/data
+      - /docker-entrypoint-initdb.d
+    environment: # переменные окружения, меняйте их если хотите поменять пароль, логин или название стартовой базы данных
+      POSTGRES_USER: admin
+      POSTGRES_DB: hack_23
+      POSTGRES_PASSWORD: password_admin
