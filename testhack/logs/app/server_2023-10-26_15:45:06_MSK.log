@@ -1,0 +1,1 @@
+[2023-10-26_12:45:06_UTC] [/app/cmd/main/main.go:51 @main] [31m[FATAL][0m  db connection error failed to connect to `host=0.0.0.0 user=admin database=hack_23`: dial error (dial tcp 0.0.0.0:5433: connect: connection refused)
