@@ -43,7 +43,6 @@ func main() {
 	pkg.InitLogger()
 	logger := pkg.GetLogger()
 	router := mux.NewRouter()
-
 	db, err := gorm.Open(postgres.New(postgres.Config{DSN: connStr}), &gorm.Config{NamingStrategy: schema.NamingStrategy{
 		TablePrefix:   os.Getenv(config.DBSchemaNameEnv) + ".",
 		SingularTable: false,

@@ -1,0 +1,1 @@
+[2023-10-26_11:41:27_UTC] [/app/cmd/main/main.go:47 @main] [31m[FATAL][0m  AAAAAA user=admin password=password_admin host=0.0.0.0 port=5433 dbname=hack_23 sslmode=disable

@@ -1,0 +1,26 @@
+2023-10-26 11:29:06.248 UTC [49] LOG:  starting PostgreSQL 16.0 (Debian 16.0-1.pgdg120+1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2023-10-26 11:29:06.249 UTC [49] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2023-10-26 11:29:06.254 UTC [53] LOG:  database system was shut down at 2023-10-26 11:29:06 UTC
+2023-10-26 11:29:06.260 UTC [49] LOG:  database system is ready to accept connections
+2023-10-26 11:29:06.360 UTC [59] LOG:  statement: SELECT 1 FROM pg_database WHERE datname = 'hack_23' ;
+2023-10-26 11:29:06.399 UTC [61] LOG:  statement: CREATE DATABASE "hack_23" ;
+2023-10-26 11:29:06.440 UTC [49] LOG:  received fast shutdown request
+2023-10-26 11:29:06.441 UTC [49] LOG:  aborting any active transactions
+2023-10-26 11:29:06.449 UTC [49] LOG:  background worker "logical replication launcher" (PID 56) exited with exit code 1
+2023-10-26 11:29:06.449 UTC [51] LOG:  shutting down
+2023-10-26 11:29:06.450 UTC [51] LOG:  checkpoint starting: shutdown immediate
+2023-10-26 11:29:06.495 UTC [51] LOG:  checkpoint complete: wrote 923 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.024 s, sync=0.020 s, total=0.046 s; sync files=301, longest=0.006 s, average=0.001 s; distance=4257 kB, estimate=4257 kB; lsn=0/1913040, redo lsn=0/1913040
+2023-10-26 11:29:06.510 UTC [49] LOG:  database system is shut down
+2023-10-26 11:29:06.572 UTC [1] LOG:  starting PostgreSQL 16.0 (Debian 16.0-1.pgdg120+1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2023-10-26 11:29:06.572 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2023-10-26 11:29:06.572 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2023-10-26 11:29:06.574 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2023-10-26 11:29:06.579 UTC [67] LOG:  database system was shut down at 2023-10-26 11:29:06 UTC
+2023-10-26 11:29:06.586 UTC [1] LOG:  database system is ready to accept connections
+2023-10-26 11:29:42.404 UTC [1] LOG:  received fast shutdown request
+2023-10-26 11:29:42.407 UTC [1] LOG:  aborting any active transactions
+2023-10-26 11:29:42.417 UTC [1] LOG:  background worker "logical replication launcher" (PID 70) exited with exit code 1
+2023-10-26 11:29:42.419 UTC [65] LOG:  shutting down
+2023-10-26 11:29:42.422 UTC [65] LOG:  checkpoint starting: shutdown immediate
+2023-10-26 11:29:42.432 UTC [65] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.013 s; sync files=12, longest=0.002 s, average=0.001 s; distance=238 kB, estimate=238 kB; lsn=0/194EBD8, redo lsn=0/194EBD8
+2023-10-26 11:29:42.447 UTC [1] LOG:  database system is shut down

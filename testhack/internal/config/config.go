@@ -10,11 +10,11 @@ const (
 	LogsTimeFormat = "2006-01-02_15:04:05_MST"
 
 	// Postgres
-	DBUserEnv       = "DB_USER"
-	DBPasswordEnv   = "DB_PASS"
-	DBHostEnv       = "DB_HOST"
-	DBPortEnv       = "DB_PORT"
-	DBNameEnv       = "DB_NAME" //
+	DBUserEnv       = "POSTGRES_USER"
+	DBPasswordEnv   = "POSTGRES_PASSWORD"
+	DBHostEnv       = "POSTGRES_HOST"
+	DBPortEnv       = "POSTGRES_PORT"
+	DBNameEnv       = "POSTGRES_DB" //
 	DBSchemaNameEnv = "POSTGRES_SCHEMA"
 
 	// Redis
