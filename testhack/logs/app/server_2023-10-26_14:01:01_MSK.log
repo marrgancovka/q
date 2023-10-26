@@ -1,0 +1,1 @@
+[2023-10-26_14:01:01_MSK] [/cmd/main/main.go:52 @main] [31m[FATAL][0m  db connection error failed to connect to `host=port= user=password= database=sslmode=disable`: hostname resolving error (lookup port=: no such host)
